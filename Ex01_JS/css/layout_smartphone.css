@@ -1,0 +1,65 @@
+.menu-header {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.90);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.menu-barras{
+    display: initial;
+}
+
+#icone-menu {
+    color: white;
+    font-size: 30px;
+}
+
+.banner {
+    background-image: url(../imagens/imagem-fundo-ranking.jpg);
+    height: 400px;
+}
+
+.imagem-sobre {
+    width: 100%;
+}
+
+.texto-sobre {
+    width: 100%;
+    height: unset;
+}
+
+.conteudo-endereco {
+    height: unset;
+}
+
+.mapa {
+    width: 150px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width : 360px){
+    .titulo-senai{
+        font-size: 42px;
+    }
+}
+.texto-banner h1{
+    font-size: 30px;
+}
+.titulo-senai{
+    font-size: 30px;
+}
+.logo{
+    height: 30px;
+}
+.texto-sobre{
+    font-size: 15px;
+}
+
+
+
+
